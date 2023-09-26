@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.video-container video {
+  width: 100%;
+}
+.video-container {
+  position: absolute;
+
+  width: 100%;
+}
+.selection {
+  position: relative;
+  /* width: 100%; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.selection p {
+  position: absolute;
+  text-align: center;
+  z-index: 98;
+  padding-top: 150px;
+  color: rgb(0, 0, 0);
+}
+.selection h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 20px;
+  margin: 13px;
+  z-index: 99;
+  /* opacity: 0.7; */
+  color: rgb(0, 0, 0);
+}
+
+#contact01 {
+  color: #000000;
+}
+
+#welcome {
+  background-color: #ffffff;
+  padding-left: 30px;
+}
+#welcome img {
+  width: 170px;
+}
+#welcome p {
+  padding-left: 50px;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: rgb(233, 245, 255);
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: aliceblue;
+  padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #d3d3d3;
+  width: 100%;
+}
+.fakeimg img {
+  /* background-position: center;
+  background-size: cover;*/
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+}
+.text001{
+display: flex;
+}
+.t01{
+padding: 10px;
+margin: 20px;
+background-color: rgb(255, 255, 255);
+
+}
+.t01 h3{
+color: #000000;
+}
+.t01 p{
+color: #000000;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/* Style the top navigation bar */
+.navbar {
+
+  font-family: D-DIN;
+  font-size: larger;
+  overflow: hidden;
+  background-color: #1b4d83;
+
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.footer {
+
+height: 44px;
+background-color: #0ba450;
+padding: 20px;
+justify-content: space-between;
+align-items: center;
+display: flex;
+}
+.footer h5 {
+color: #ffffff;
+}
+.footer01 h3{
+color: #ffffff;
+}
+.footer01 h5{
+color: #ffffff;
+}
+.footer01 {
+padding: 3px;
+height: 40px;
+/* padding-left: 310px; */
+justify-content: space-between;
+align-items: center;
+background-color: #1d2b3a;
+display: flex;
+/* padding-right: 310px; */
+}
+
+.inputbox input{
+
+position: absolute;
+border: 1px solid rgb(255, 255, 255,0.25);
+border-radius: 5px;
+background-color: #1d2b3a;
+}
+.buttom0{
+padding: 3px;
+}
+.h {
+margin: 5px;
+border: 3px solid aliceblue;
+background-color: rgb(255, 255, 255);
+display: flex;
+}
+.h p {
+padding-left: 10px;
+padding-right: 10px;
+}
+.h img {
+padding-left: 10px;
+}
+.sp a {
+padding: 10px;
+}
+.sp p{
+color: #ffffff;
+}
+.sp {
+display: flex;
+}
+.sp img {
+cursor: pointer;
+opacity: 0.8;
+}
+.sp img:hover {
+opacity: 1;
+}
